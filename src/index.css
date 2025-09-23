@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
 @import "tailwindcss";
+@plugin "tailwindcss-motion";
 
 html {
   color-scheme: dark;
@@ -28,4 +29,12 @@ body {
 }
 .description {
   @apply max-w-[60ch] text-base text-white/75;
+}
+
+.liquid-glass {
+  @apply rounded-lg border-2 border-white/40 bg-white/5 backdrop-blur-md;
+}
+
+.box-shadow {
+  box-shadow: inset 0 0 10px 0.5px rgba(255, 255, 255, 0.5);
 }

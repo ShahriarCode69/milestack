@@ -28,7 +28,7 @@ body {
   @apply mb-4 text-xl leading-8 font-semibold md:text-3xl md:leading-12 lg:text-5xl lg:leading-16;
 }
 .description {
-  @apply max-w-[60ch] text-base text-white/75;
+  @apply max-w-[40ch] text-base text-white/75;
 }
 
 .liquid-glass {

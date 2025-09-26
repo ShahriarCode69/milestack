@@ -14,7 +14,8 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 z-50 mx-auto h-auto w-full p-8">
       <div className="liquid-glass container flex items-center justify-between px-5 py-3">
-        <h1 className="text-2xl font-bold">MileStack.</h1>
+        <h1 className="text-2xl font-bold">
+          <a href="#">MileStack.</a></h1>
         <ul className="hidden gap-12 md:flex">
           {navLinks.map((link) => (
             <li key={link.id}>

@@ -13,13 +13,16 @@ const Hero = () => {
             sequi alias blanditiis?
           </p>
         </div>
-        <div className="backdrop-blur-base absolute top-45 right-0 inline-flex flex-col items-start justify-center gap-12 border bg-white/10 px-8 py-8">
-          <FaBoltLightning />
-          <div>
-            <h3 className="text-2xl font-bold">
+        <div className="backdrop-blur-base absolute top-45 right-0 inline-flex flex-col items-start justify-center gap-6 rounded-xl border border-white/30 bg-white/10 px-8 py-8">
+          <FaBoltLightning
+            className="-mb-4 -rotate-20 text-amber-400"
+            size={32}
+          />
+          <div className="mb-4">
+            <h3 className="text-xl font-bold">
               Complete tasks lightning fast!
             </h3>
-            <p>
+            <p className="text-sm">
               Monthly Users <span className="font-bold">120k+</span>
             </p>
           </div>

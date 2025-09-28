@@ -4,9 +4,12 @@ import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 
 const Hero = () => {
   return (
-    <section id="#" className="h-screen w-full bg-[url(/hero-bg.png)] bg-cover bg-fixed bg-center">
+    <section
+      id="#"
+      className="h-screen w-full bg-[url(/hero-bg.png)] bg-cover bg-fixed bg-center"
+    >
       <div className="relative container h-full pt-56">
-        <div className="absolute bottom-20 mx-8 2xl:mx-0 ">
+        <div className="absolute bottom-20 mx-8 motion-blur-in-[30px] motion-opacity-in-[0%] motion-translate-x-in-[1%] motion-translate-y-in-[119%] 2xl:mx-0">
           <h1 className="heading-xl">
             Manage Your Task <br /> Efficiently
           </h1>
@@ -15,7 +18,7 @@ const Hero = () => {
             sequi alias blanditiis?
           </p>
         </div>
-        <div className="backdrop-blur-base absolute top-45 right-0 inline-flex flex-col items-start justify-center gap-6 rounded-xl border border-white/30 bg-white/7 px-8 py-8 mx-8">
+        <div className="backdrop-blur-base absolute top-45 right-0 mx-8 inline-flex motion-blur-in-[30px] motion-opacity-in-[0%] motion-translate-x-in-[137%] motion-translate-y-in-[-2%] flex-col items-start justify-center gap-6 rounded-xl border border-white/30 bg-white/7 px-8 py-8">
           <FaBoltLightning
             className="-mb-4 -rotate-20 text-amber-400"
             size={32}
@@ -34,9 +37,9 @@ const Hero = () => {
             </a>
           </button>
         </div>
-        <div className=" hidden md:absolute bottom-20 right-0 md:flex flex-col gap-2 motion-preset-oscillate motion-duration-1000 mx-12">
-          <PiMouseSimple size={21}/>
-          <MdKeyboardDoubleArrowDown size={21}/>
+        <div className="right-0 bottom-20 mx-12 hidden motion-preset-oscillate flex-col gap-2 motion-duration-1000 md:absolute md:flex">
+          <PiMouseSimple size={21} />
+          <MdKeyboardDoubleArrowDown size={21} />
         </div>
       </div>
     </section>

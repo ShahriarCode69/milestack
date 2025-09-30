@@ -28,16 +28,19 @@ body {
 }
 
 .heading-xl {
-  @apply mb-4 text-3xl leading-8 font-extrabold md:text-5xl md:leading-16 lg:text-7xl lg:leading-22;
+  @apply text-3xl leading-8 font-extrabold md:text-5xl md:leading-16 lg:text-7xl lg:leading-22;
 }
 .heading-md {
-  @apply mb-4 text-2xl leading-8 font-bold md:text-4xl md:leading-14 lg:text-6xl lg:leading-20;
+  @apply text-2xl leading-8 font-bold md:text-4xl md:leading-14 lg:text-6xl lg:leading-20;
 }
 .heading-sm {
-  @apply mb-4 text-xl leading-8 font-semibold md:text-3xl md:leading-12 lg:text-5xl lg:leading-16;
+  @apply text-xl leading-8 font-semibold md:text-3xl md:leading-12 lg:text-5xl lg:leading-16;
+}
+.subtitle {
+  @apply text-xl leading-7 font-semibold md:text-2xl md:leading-8 lg:text-4xl lg:leading-12;
 }
 .description {
-  @apply max-w-[40ch] text-base text-white/75;
+  @apply max-w-[40ch] text-sm text-white/75;
 }
 
 .liquid-glass {

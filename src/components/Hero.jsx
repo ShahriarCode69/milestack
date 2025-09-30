@@ -10,7 +10,7 @@ const Hero = () => {
     >
       <div className="relative container h-full pt-56">
         <div className="absolute bottom-20 mx-8 motion-blur-in-[30px] motion-opacity-in-[0%] motion-translate-x-in-[1%] motion-translate-y-in-[119%] 2xl:mx-0">
-          <h1 className="heading-xl">
+          <h1 className="heading-xl mb-4">
             Manage Your Task <br /> Efficiently
           </h1>
           <p className="description">

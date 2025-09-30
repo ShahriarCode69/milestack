@@ -23,7 +23,7 @@ const About = () => {
         {aboutDatas.map((data) => (
           <span
             key={data.id}
-            className="col-span-1 grid motion-blur-in-[30px] motion-opacity-in-[0%] motion-translate-x-in-[1%] motion-translate-y-in-[119%] place-items-center rounded-lg bg-blue-950 p-4 sm:col-span-2 md:col-span-2 md:row-span-2"
+            className="select-none col-span-1 grid motion-blur-in-[30px] motion-opacity-in-[0%] motion-translate-x-in-[1%] motion-translate-y-in-[119%] place-items-center rounded-lg bg-blue-950 p-4 sm:col-span-2 md:col-span-2 md:row-span-2"
           >
             <h3 className="heading-md">{data.heading}</h3>
             <p>{data.label}</p>

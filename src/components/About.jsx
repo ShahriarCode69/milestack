@@ -9,7 +9,7 @@ const About = () => {
 
   return (
     <section className="section mx container">
-      <h1 className="heading-md mb-4">Who We Are?</h1>
+      <h1 className="heading-md mb-4">Why MileStack?</h1>
       <ChartAreaGradient />
       <h2 className="subtitle mb-4 text-right">
         93% better <br />

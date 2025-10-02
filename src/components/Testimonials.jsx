@@ -76,7 +76,7 @@ const Testimonials = () => {
           users
         </span>
       </h2>
-      <div className="columns-1 gap-5 sm:columns-2 lg:columns-3 lg:gap-8 xl:columns-4 [&>div:not(:first-child)]:mt-5 lg:[&>div:not(:first-child)]:mt-8">
+      <div className="relative columns-1 gap-5 sm:columns-2 lg:columns-3 lg:gap-8 xl:columns-4 [&>div:not(:first-child)]:mt-5 lg:[&>div:not(:first-child)]:mt-8">
         {users.map((user) => (
           <div
             key={user.id}
@@ -97,10 +97,15 @@ const Testimonials = () => {
             </div>
             <p className="description mb-4">{user.review}</p>
             {user.image && (
-              <img src={user.image} alt="" className="rounded-xl w-full h-full aspect-square object-cover" />
+              <img
+                src={user.image}
+                alt=""
+                className="aspect-square h-full w-full rounded-xl object-cover"
+              />
             )}
           </div>
         ))}
+        <div className="absolute left-0 h-64 w-full bg-gradient-to-t from-[#050020] to-transparent"></div>
       </div>
     </section>
   );

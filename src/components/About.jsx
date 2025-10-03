@@ -1,4 +1,4 @@
-import { ChartAreaGradient } from "@/components/ui/ChartAreaGradient"
+import { ChartAreaGradient } from "@/components/ui/ChartAreaGradient";
 
 const About = () => {
   const aboutDatas = [
@@ -9,7 +9,7 @@ const About = () => {
 
   return (
     <section className="section mx container">
-      <h1 className="heading-md mb-4">Why MileStack?</h1>
+      <h1 className="heading-xl mb-4">Why MileStack?</h1>
       <ChartAreaGradient />
       <h2 className="subtitle mb-4 text-right">
         93% better <br />
@@ -23,7 +23,7 @@ const About = () => {
         {aboutDatas.map((data) => (
           <span
             key={data.id}
-            className="select-none col-span-1 grid motion-blur-in-[30px] motion-opacity-in-[0%] motion-translate-x-in-[1%] motion-translate-y-in-[119%] place-items-center rounded-lg bg-blue-950 p-4 sm:col-span-2 md:col-span-2 md:row-span-2"
+            className="col-span-1 grid motion-blur-in-[30px] motion-opacity-in-[0%] motion-translate-x-in-[1%] motion-translate-y-in-[119%] place-items-center rounded-lg bg-blue-950 p-4 select-none sm:col-span-2 md:col-span-2 md:row-span-2"
           >
             <h3 className="heading-md">{data.heading}</h3>
             <p>{data.label}</p>
@@ -32,6 +32,6 @@ const About = () => {
       </div>
     </section>
   );
-}
+};
 
-export default About
+export default About;

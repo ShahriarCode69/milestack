@@ -70,7 +70,7 @@ const Testimonials = () => {
   ];
   return (
     <section className="mx section container">
-      <h2 className="heading-md mb-12 text-center">
+      <h2 className="heading-xl mb-12 text-center">
         Love from the{" "}
         <span className="inline-block -rotate-8 motion-scale-loop-105 rounded-xl bg-blue-600 px-2 pb-2 motion-duration-1000">
           users
@@ -105,7 +105,6 @@ const Testimonials = () => {
             )}
           </div>
         ))}
-        <div className="absolute left-0 h-64 w-full bg-gradient-to-t from-[#050020] to-transparent"></div>
       </div>
     </section>
   );

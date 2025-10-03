@@ -1,6 +1,6 @@
 const Features = () => {
   return (
-    <section className="mx section container mb-12">
+    <section className="mx section container">
       <h2 className="heading-xl mb-12">Featues on the Table</h2>
 
       <div class="grid auto-rows-[85px] grid-cols-1 gap-2 md:grid-cols-6 lg:grid-cols-8">

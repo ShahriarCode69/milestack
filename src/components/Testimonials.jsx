@@ -80,7 +80,7 @@ const Testimonials = () => {
         {users.map((user) => (
           <div
             key={user.id}
-            className="break-inside-avoid rounded-lg border border-white/30 bg-blue-950 px-6 py-6"
+            className="break-inside-avoid rounded-lg border-white/30 bg-blue-950 px-6 py-6"
           >
             <div className="mb-4 flex items-center gap-3">
               <img

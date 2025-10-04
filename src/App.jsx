@@ -4,6 +4,9 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Testimonials from "./components/Testimonials";
 import Features from "./components/Features";
+import Waitlist from "./components/Waitlist";
+
+
 function App() {
   return (
     <main>
@@ -13,6 +16,7 @@ function App() {
       <About />
       <Testimonials/>
       <Features/>
+      <Waitlist/>
     </main>
   );
 }

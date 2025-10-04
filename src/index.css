@@ -20,7 +20,7 @@ body {
 }
 
 .section {
-  @apply pt-28 md:pt-48; /* adjust as needed */
+  @apply mt-28 md:mt-48; /* adjust as needed */
 }
 
 .mx {

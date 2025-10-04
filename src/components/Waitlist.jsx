@@ -3,8 +3,8 @@ import { Input } from "@/components/ui/input";
 
 const Waitlist = () => {
   return (
-    <section className="section mx relative container isolate rounded-2xl bg-blue-950 bg-[url(/waitlistbg.png)] bg-cover bg-right py-12">
-      <div class="absolute inset-0 -z-1 bg-black/30 backdrop-blur-xs"></div>
+    <section id="waitlist" className="section mx relative container isolate rounded-2xl bg-dark2 bg-[url(/waitlistbg.png)] bg-cover bg-right py-12">
+      <div class="absolute inset-0 -z-1 bg-black/30 backdrop-blur-xs "></div>
       <div className="">
         <div className="flex-center mb-12 flex-col gap-1 text-center">
           <Badge variant="default">MileStack.</Badge>

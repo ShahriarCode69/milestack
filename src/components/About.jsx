@@ -8,7 +8,7 @@ const About = () => {
   ];
 
   return (
-    <section className="section mx container">
+    <section id="why-choose" className="section mx container">
       <h1 className="heading-xl mb-4">Why MileStack?</h1>
       <ChartAreaGradient />
       <h2 className="subtitle mb-4 text-right">
@@ -23,7 +23,7 @@ const About = () => {
         {aboutDatas.map((data) => (
           <span
             key={data.id}
-            className="col-span-1 grid motion-blur-in-[30px] motion-opacity-in-[0%] motion-translate-x-in-[1%] motion-translate-y-in-[119%] place-items-center rounded-lg bg-blue-950 p-4 select-none sm:col-span-2 md:col-span-2 md:row-span-2"
+            className="col-span-1 grid motion-blur-in-[30px] motion-opacity-in-[0%] motion-translate-x-in-[1%] motion-translate-y-in-[119%] place-items-center rounded-lg bg-dark2 p-4 select-none sm:col-span-2 md:col-span-2 md:row-span-2"
           >
             <h3 className="heading-md">{data.heading}</h3>
             <p>{data.label}</p>

@@ -5,6 +5,7 @@ import About from "./components/About";
 import Testimonials from "./components/Testimonials";
 import Features from "./components/Features";
 import Waitlist from "./components/Waitlist";
+import Footer from "./components/Footer";
 
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
       <Testimonials/>
       <Features/>
       <Waitlist/>
+      <Footer/>
     </main>
   );
 }

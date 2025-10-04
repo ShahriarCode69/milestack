@@ -6,9 +6,9 @@ const Navbar = () => {
 
   const navLinks = [
     { id: 1, name: "Home", link: "#" },
-    { id: 2, name: "Services", link: "#services" },
-    { id: 3, name: "Achievement", link: "#achievement" },
-    { id: 4, name: "About", link: "#about" },
+    { id: 2, name: "Why MileStack", link: "#about" },
+    { id: 3, name: "Features", link: "#features" },
+    { id: 4, name: "Reviews", link: "#Reviews" },
   ];
 
   return (
@@ -26,7 +26,7 @@ const Navbar = () => {
         </ul>
         <div className="flex-center gap-4">
           <button className="primary-btn box-shadow hidden md:block">
-            Sign Up
+            Join Waitlist
           </button>
         </div>
 
@@ -51,7 +51,7 @@ const Navbar = () => {
             ))}
           </ul>
           <div className="h-0.5 w-52 bg-white/20"></div>
-          <button className="primary-btn box-shadow md:block">Sign Up</button>
+          <button className="primary-btn box-shadow md:block">Join Waitlist</button>
         </div>
       )}
     </nav>

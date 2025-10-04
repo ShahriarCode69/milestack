@@ -12,7 +12,15 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Plus Jakarta Sans", sans-serif;
-  background-color: #050020;
+  background-color: var(--color-dark);
+}
+
+@theme {
+  --color-primary: hsl(225 100% 59%);
+  --color-dark: hsl(225 30% 6%);
+  --color-dark2: hsl(225 40% 12%);
+  --color-light: hsl(184 20% 96%);
+  --color-light-muted: hsl(184 100% 96%);
 }
 
 .container {
@@ -28,16 +36,16 @@ body {
 }
 
 .heading-xl {
-  @apply text-4xl leading-9 font-extrabold md:text-5xl md:leading-17 lg:text-7xl lg:leading-23;
+  @apply text-4xl text-light leading-9 font-extrabold md:text-5xl md:leading-17 lg:text-7xl lg:leading-23;
 }
 .heading-md {
-  @apply text-3xl leading-8 font-bold md:text-4xl md:leading-14 lg:text-6xl lg:leading-20;
+  @apply text-3xl text-light leading-8 font-bold md:text-4xl md:leading-14 lg:text-6xl lg:leading-20;
 }
 .heading-sm {
-  @apply text-2xl leading-8 font-semibold md:text-3xl md:leading-12 lg:text-5xl lg:leading-16;
+  @apply text-2xl text-light leading-8 font-semibold md:text-3xl md:leading-12 lg:text-5xl lg:leading-16;
 }
 .subtitle {
-  @apply text-lg leading-7 font-semibold md:text-2xl md:leading-8 lg:text-4xl lg:leading-12;
+  @apply text-lg text-light leading-7 font-semibold md:text-2xl md:leading-8 lg:text-4xl lg:leading-12;
 }
 .description {
   @apply max-w-[40ch] text-sm text-white/75;
@@ -56,6 +64,5 @@ body {
 }
 
 .primary-btn {
-  @apply cursor-pointer rounded-md border-2 border-white/40 bg-blue-600 px-4 py-1.5 transition-all duration-300 hover:bg-blue-500;
+  @apply cursor-pointer rounded-md border-2 border-white/40 bg-primary px-4 py-1.5 transition-all duration-300 hover:bg-blue-500;
 }
-

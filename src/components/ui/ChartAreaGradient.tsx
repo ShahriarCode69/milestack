@@ -56,12 +56,20 @@ export function ChartAreaGradient() {
             />
             <ChartTooltip
               cursor={false}
-              content={<ChartTooltipContent className="bg-blue-950" />}
+              content={<ChartTooltipContent className="bg-dark2" />}
             />
             <defs>
               <linearGradient id="fillYourTool" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="5%" stopColor="#155dfc" stopOpacity={1} />
-                <stop offset="95%" stopColor="#1e40af" stopOpacity={0.1} />
+                <stop
+                  offset="5%"
+                  stopColor="hsl(225 100% 59%)"
+                  stopOpacity={1}
+                />
+                <stop
+                  offset="95%"
+                  stopColor="hsl(225 100% 59%)"
+                  stopOpacity={0.1}
+                />
               </linearGradient>
               <linearGradient id="fillOtherTools" x1="0" y1="0" x2="0" y2="1">
                 <stop offset="10%" stopColor="#e11d48" stopOpacity={1} />

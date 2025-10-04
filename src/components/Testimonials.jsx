@@ -69,10 +69,10 @@ const Testimonials = () => {
     },
   ];
   return (
-    <section className="mx section container">
+    <section id="reviews" className="mx section container">
       <h2 className="heading-xl mb-12 text-center">
         Love from the{" "}
-        <span className="inline-block -rotate-8 motion-scale-loop-105 rounded-xl bg-blue-600 px-2 pb-2 motion-duration-1000">
+        <span className="inline-block -rotate-8 motion-scale-loop-105 rounded-xl bg-primary px-2 pb-2 motion-duration-1000">
           users
         </span>
       </h2>
@@ -80,7 +80,7 @@ const Testimonials = () => {
         {users.map((user) => (
           <div
             key={user.id}
-            className="break-inside-avoid rounded-lg border-white/30 bg-blue-950 px-6 py-6"
+            className="break-inside-avoid rounded-lg border-white/30 bg-dark2 px-6 py-6"
           >
             <div className="mb-4 flex items-center gap-3">
               <img

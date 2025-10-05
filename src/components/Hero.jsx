@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       id="#"
-      className="h-screen w-full bg-[url(/hero-bg.png)] bg-cover bg-fixed bg-center"
+      className="h-screen w-full bg-[url(/backgrounds/hero-bg.webp)] bg-cover bg-fixed bg-center"
     >
       <div className="relative container h-full pt-56">
         <div className="absolute bottom-20 mx-8 motion-blur-in-[30px] motion-opacity-in-[0%] motion-translate-x-in-[1%] motion-translate-y-in-[119%] 2xl:mx-0">

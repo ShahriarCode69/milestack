@@ -14,11 +14,11 @@ const Hero = () => {
             Manage Your Task <br /> Efficiently
           </h1>
           <p className="description">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium
-            sequi alias blanditiis?
+            Organize, track, and complete your tasks quickly with seamless
+            efficiency.
           </p>
         </div>
-        <div className="backdrop-blur-base absolute top-45 right-0 mx-8 inline-flex motion-blur-in-[30px] motion-opacity-in-[0%] motion-translate-x-in-[137%] motion-translate-y-in-[-2%] flex-col items-start justify-center gap-6 rounded-xl border backdrop-blur-sm border-white/30 bg-white/7 px-8 py-8">
+        <div className="backdrop-blur-base absolute top-45 right-0 mx-8 inline-flex motion-blur-in-[30px] motion-opacity-in-[0%] motion-translate-x-in-[137%] motion-translate-y-in-[-2%] flex-col items-start justify-center gap-6 rounded-xl border border-white/30 bg-white/7 px-8 py-8 backdrop-blur-sm">
           <FaBoltLightning
             className="-mb-4 -rotate-20 text-amber-400"
             size={32}

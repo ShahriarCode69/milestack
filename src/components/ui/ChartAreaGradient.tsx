@@ -12,18 +12,18 @@ import {
 } from "./chart";
 
 const chartData = [
-  { month: "Jan", YourTool: 100, OtherTools: 80 },
-  { month: "Feb", YourTool: 120, OtherTools: 96 },
-  { month: "Mar", YourTool: 115, OtherTools: 75 },
-  { month: "Apr", YourTool: 135, OtherTools: 56 },
-  { month: "May", YourTool: 165, OtherTools: 88 },
-  { month: "June", YourTool: 150, OtherTools: 70 },
-  { month: "July", YourTool: 170, OtherTools: 55 },
+  { month: "Jan", MileStack: 100, OtherTools: 80 },
+  { month: "Feb", MileStack: 120, OtherTools: 96 },
+  { month: "Mar", MileStack: 115, OtherTools: 75 },
+  { month: "Apr", MileStack: 135, OtherTools: 56 },
+  { month: "May", MileStack: 165, OtherTools: 88 },
+  { month: "June", MileStack: 150, OtherTools: 70 },
+  { month: "July", MileStack: 170, OtherTools: 55 },
 ];
 
 const chartConfig = {
-  YourTool: {
-    label: "Your Tool",
+  MileStack: {
+    label: "MileStack",
     color: "#155dfc", // Blue
     icon: FaDev,
   },
@@ -77,7 +77,7 @@ export function ChartAreaGradient() {
               </linearGradient>
             </defs>
             <Area
-              dataKey="YourTool"
+              dataKey="MileStack"
               type="natural"
               fill="url(#fillYourTool)"
               fillOpacity={0.8}

@@ -16,8 +16,8 @@ const About = () => {
         Than Other Tools
       </h2>
       <p className="description mb-20 ml-auto text-right">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas,
-        maiores. Optio minus quas nobis accusantium asperiores
+        Boost your productivity and achieve better results—93% more effective
+        than other tools.
       </p>
       <div className="mx-auto grid max-w-xs grid-cols-1 grid-rows-2 gap-6 sm:max-w-sm sm:grid-cols-2 md:max-w-5xl md:grid-cols-6 md:grid-rows-2 md:gap-[27px]">
         {aboutDatas.map((data) => (
